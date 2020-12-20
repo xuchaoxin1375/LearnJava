@@ -12,8 +12,8 @@ import java.util.regex.Pattern;
  */
 public class ExtractString {
     /**
-     * ÔÚ»ñÈ¡ĞèÒª±»·ÖÎö²¢ÌáÈ¡µÄ×Ö·û´®Ö®ºó,½«×Ö·û´®²ÎÊı´«Èëµ½¸Ãº¯ÊıÖĞ,Í¬Ê±,ÓÃ»§»¹ĞèÖ¸¶¨ÕıÔò±í´ïÊ½ĞÎÊ½µÄ·Ö¸î·û
-     * ¸Ã·½·¨½«·µ»ØÒ»¸ö´¦Àí½á¹û¹¹³ÉµÄÁĞ±í.
+     * åœ¨è·å–éœ€è¦è¢«åˆ†æå¹¶æå–çš„å­—ç¬¦ä¸²ä¹‹å,å°†å­—ç¬¦ä¸²å‚æ•°ä¼ å…¥åˆ°è¯¥å‡½æ•°ä¸­,åŒæ—¶,ç”¨æˆ·è¿˜éœ€æŒ‡å®šæ­£åˆ™è¡¨è¾¾å¼å½¢å¼çš„åˆ†å‰²ç¬¦
+     * è¯¥æ–¹æ³•å°†è¿”å›ä¸€ä¸ªå¤„ç†ç»“æœæ„æˆçš„åˆ—è¡¨.
      * @param ToAnalyzeString
      * @param regexString
      * @return List<String> </String>
@@ -29,6 +29,8 @@ public class ExtractString {
     }
 
     public static void main(String[] args) {
-        System.out.println(extract(ToAnalyzeStrings.s2, RegexStrings.regex2));
+        
+/*ç”¨æˆ·ä½¿ç”¨è¯¥ç±»(æä¾›çš„æ–¹æ³•)çš„æ—¶å€™,æ³¨é‡Šæ­¤mainå‡½æ•°,ä»¥åŠä¿®æ”¹å¤´éƒ¨çš„package),æ­¤å¤„çš„maiç”¨äºä¸´æ—¶æ¼”ç¤º*/
+       // System.out.println(extract(ToAnalyzeStrings.s2, RegexStrings.regex2));
     }
 }
