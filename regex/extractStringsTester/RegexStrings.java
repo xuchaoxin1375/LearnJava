@@ -5,7 +5,8 @@ package regex.extractStringsTester;
  * @Date 12/20/2020 10:03 AM
  * @Version 1.0
  */
-public class RegexString {
+public class RegexStrings {
+    static String regex0 ="\\s+";
     static  String  regex2 = "(_\\w|[a-z])+";/* _\\w+|[a-z]+  or  (_\\w|[a-z])+  or [[a-z]|_]\w+ */
 
 }

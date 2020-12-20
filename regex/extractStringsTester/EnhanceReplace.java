@@ -1,45 +1,30 @@
 package regex.extractStringsTester;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 /**
  * @Author xuchaoxin
  * @Date 12/20/2020 9:33 AM
  * @Version 1.0
  */
 public class EnhanceReplace {
-
-    static void demo0() {
-        String r = ToAnalyzeStrings.s0.replaceAll("\\s+", " ");
-        System.out.println(r);
-    }
-
-    static void demo1() {
-
-        String regex1 = "(-\\\\w|[a-z])+";/* _\\w+|[a-z]+  or  (-\\w|[a-z])+  or [[a-z]|_]\w+ */
-        Pattern p = Pattern.compile("\\wo\\w");
-        Matcher m = p.matcher(ToAnalyzeStrings.s1);
-        while (m.find()) {
-            String sub = ToAnalyzeStrings.s1.substring(m.start(), m.end());
-            System.out.println(sub);
-        }
-    }
-
     /**
      * @param ToAnalyzeString
      * @param regexString
+     * @param separator
+     * @return
      */
-    public static void testExtract(String ToAnalyzeString, String regexString) {
-        Matcher matcher = Pattern.compile(regexString).matcher(ToAnalyzeString);
-        while (matcher.find()) {
-            System.out.println(matcher.group());
-        }
+    static String optimizeTexts(String ToAnalyzeString, String regexString, String separator) {
+        return ToAnalyzeString.replaceAll(regexString, separator);
+        //System.out.println();
     }
+    /*不难发现,这个中打印结果的函数一般就不要封装进来了,需要打印的话在主函数中打印optimizeText返回值即可*/
+/*    static void printOptimizeTexts(String ToAnalyzeString,String regexString,String separator){
+        System.out.println(optimizeTexts(ToAnalyzeString, regexString, separator));
+    }*/
 
     public static void main(String[] args) {
         //demo0();
         //demo1();
-        testExtract(ToAnalyzeStrings.s2, RegexString.regex2);
+        /*重复的代码写多了,就会去寻求并抽象出共同点,*/
+        System.out.println(optimizeTexts(ToAnalyzeStrings.s0, RegexStrings.regex0, " "));
     }
 }
