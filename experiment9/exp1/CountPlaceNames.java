@@ -6,7 +6,7 @@ import com.hankcs.hanlp.corpus.tag.Nature;
 import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
 import experiment6.exp4.Tuple;
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

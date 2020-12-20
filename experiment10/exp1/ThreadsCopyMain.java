@@ -1,7 +1,7 @@
 package experiment10.exp1;
 /*用多线程的方法实现目录拷贝*/
 
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.util.Scanner;
 

@@ -2,14 +2,10 @@ package experiment9.exp3;
 
 import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.corpus.tag.Nature;
-import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
-import experiment6.exp4.Tuple;
-import experiment9.FileName;
-import net.sf.json.JSONObject;
+import namesAndStrings.FileName;
 
 import java.io.*;
-import java.lang.module.FindException;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 

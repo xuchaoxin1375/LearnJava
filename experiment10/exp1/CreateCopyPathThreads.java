@@ -1,6 +1,6 @@
 package experiment10.exp1;
 
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.File;
 import java.io.IOException;

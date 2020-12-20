@@ -1,6 +1,6 @@
 package experiment7.exp3_2;
 
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.*;
 import java.util.ArrayList;

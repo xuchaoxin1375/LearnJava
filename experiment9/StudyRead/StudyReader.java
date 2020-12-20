@@ -1,6 +1,6 @@
 package experiment9.StudyRead;
 
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.FileReader;
 import java.io.IOException;

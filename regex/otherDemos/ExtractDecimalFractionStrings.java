@@ -1,6 +1,6 @@
 package regex.otherDemos;
 
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.*;
 import java.nio.charset.Charset;

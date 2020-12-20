@@ -1,12 +1,10 @@
 package experiment10.exp1;
 
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @Author xuchaoxin

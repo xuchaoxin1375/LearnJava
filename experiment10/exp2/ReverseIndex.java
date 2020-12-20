@@ -1,14 +1,11 @@
 package experiment10.exp2;
 
 import com.hankcs.hanlp.HanLP;
-import com.hankcs.hanlp.corpus.document.sentence.word.Word;
-import com.hankcs.hanlp.corpus.tag.Nature;
 import com.hankcs.hanlp.seg.common.Term;
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.*;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 

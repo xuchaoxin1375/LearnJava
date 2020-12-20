@@ -1,5 +1,5 @@
 package experiment9.StudyRead;
-import experiment9.FileName;
+import namesAndStrings.FileName;
 
 import java.io.FileWriter;
 import java.io.IOException;

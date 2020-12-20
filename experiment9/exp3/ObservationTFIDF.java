@@ -4,7 +4,7 @@ import com.hankcs.hanlp.HanLP;
 import com.hankcs.hanlp.corpus.tag.Nature;
 import com.hankcs.hanlp.dictionary.stopword.CoreStopWordDictionary;
 import com.hankcs.hanlp.seg.common.Term;
-import experiment9.FileName;
+import namesAndStrings.FileName;
 import net.sf.json.JSONObject;
 import java.io.*;
 import java.nio.charset.StandardCharsets;

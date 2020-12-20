@@ -5,7 +5,7 @@ package experiment9.exp2;
 //另一种形如 //…….
 //*/
 
-import experiment9.FileName;
+import namesAndStrings.FileName;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 public class RegularExpression {
