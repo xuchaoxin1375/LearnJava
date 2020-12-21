@@ -20,7 +20,7 @@ public class StatisticsWords {
           /*     File file =new File(fileName);//无法正常读入中文。
             Scanner scanner = new Scanner(file);*/
         String fileName = "D:\\ecloud\\textbooks\\java\\experiment_doc\\dataExperiment8\\三国演义(罗贯中).txt";
-        /*读入目录: D:\ecloud\textbooks\java\experiment_doc\dataExperiment8\三国演义(罗贯中).txt
+        /*读入目录: D:\ecloud\textbooks\java\experiment_doc\dataExperiment8\三国演义(罗贯n中).txt
     D:\ecloud\textbooks\java\experiment_doc\dataExperiment8\english.txt    */
         String fileNameOut = "D:\\ecloud\\textbooks\\java\\experiment_doc\\dataExperiment8\\三国演义词频.txt";
 

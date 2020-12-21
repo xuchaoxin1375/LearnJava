@@ -1,9 +1,9 @@
 package experiment6.exp2;
-/*?定义受检异常类 OddException，表示两个数相除时，
+/*方定义受检异常类 OddException，表示两个数相除时，
 除数为奇数时出现的异常。
-该类必须定义两个构造?法:
-默认构造?法和
-带字符串参数的构造?法。*/
+该类必须定义两个构造方法:
+默认构造方法和
+带字符串参数的构造方法。*/
 
  class OddException extends Exception {
 

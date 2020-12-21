@@ -9,29 +9,35 @@ import java.util.*;
 */
 public class DualColoredBall {
     public static void main(String[] args) {
-        Random r=new Random();
-        Set<Integer> set=new HashSet<>();
-
-        Scanner sc=new Scanner(System.in);
+        /*instantiate a Random object*/
+        Random r = new Random();
+        Set<Integer> set = new HashSet<>();
+        /*read in input(a integer) form console :*/
+        Scanner sc = new Scanner(System.in);
         System.out.println("«Î ‰»Îª˙—°÷˘ ˝:");
-        int num=sc.nextInt();
-        int k=0;
-        for(int i = 0;i<num;i++){
-            k=0;
-            for(k=0;k<6;){
-                if(set.add(r.nextInt(33)+1)){
+        int num = sc.nextInt();
+
+        int k ;
+        for (int i = 0; i < num; i++) {
+            /*This is a selective counting technique:
+           for-loop with if
+            * only need one variable we can make it .*/
+            for (k = 0; k < 6; ) {
+                if (set.add(r.nextInt(33) + 1)) {
                     k++;
                 }
-
             }
-            List<Integer> list=new ArrayList<>(set);
+            /**input a set to ArrayList() constructor.
+             * make the set turn into a corresponding list */
+            List<Integer> list = new ArrayList<>(set);
             Collections.sort(list);
+
             System.out.print("∫Ï«Ú:");
-            for(int x:list){
+            for (int x : list) {
                 System.out.print(new DecimalFormat("00 ").format(x));
 
             }
-            System.out.println(" ¿∂«Ú:"+new DecimalFormat("00").format(r.nextInt(16) + 1));
+            System.out.println(" ¿∂«Ú:" + new DecimalFormat("00").format(r.nextInt(16) + 1));
             System.out.println();
 
             set.clear();

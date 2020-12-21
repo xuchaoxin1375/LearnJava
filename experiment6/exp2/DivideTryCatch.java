@@ -27,7 +27,7 @@ public class DivideTryCatch {
             double b = Double.parseDouble(arrayLine[1]);
             /* instantiate an object for deal math division */
             MathDivide mathdivide = new MathDivide();
-            //System.out.println(a+"/"+b+"=" +mathdivide.divide(a, b));
+            //System.out.println(a+"/"+b+"=" +mathDivide.divide(a, b));
             try {
                 mathdivide.divide(a, b);
             } catch (OddException e) {

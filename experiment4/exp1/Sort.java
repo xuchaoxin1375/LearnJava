@@ -50,8 +50,16 @@ public class Sort {
    /*     for (String i : aString) {
             System.out.println(i);
         }*/
+        /*Additionally  IDEA support the traverse in reverse :Forr*/
+
 //Arrays.stream(aString).sorted();
         Arrays.sort(aString);
+        /**
+         * java.util.Arrays @Contract(mutates = "param1")
+         * public static void sort(@NotNull Object[] a)
+         * Sorts the specified array of objects into ascending order, according to the natural ordering of its elements. All elements in the array must implement the Comparable interface. Furthermore, all elements in the array must be mutually comparable (that is, e1.compareTo(e2) must not throw a ClassCastException for any elements e1 and e2 in the array).
+         * This sort is guaranteed to be stable: equal elements will not be reordered as a result of the sort.*/
+
         List<String> list=new ArrayList<>();
 
        for(String x:aString){

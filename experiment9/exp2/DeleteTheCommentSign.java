@@ -8,7 +8,7 @@ package experiment9.exp2;
 import namesAndStrings.FileName;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-public class RegularExpression {
+public class DeleteTheCommentSign {
     /*创建缓冲流对象：它是过滤流，是对节点流的包装(也就是说,它依赖于节点流,需要基于FileReader/FileInputStream来包装使用.一般来说,推荐使用BufferedIO来操作文件比较好(比直接单纯使用FileIO来的方便和高效智能 */
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader=new BufferedReader(new FileReader(FileName.fileName3, StandardCharsets.UTF_8));

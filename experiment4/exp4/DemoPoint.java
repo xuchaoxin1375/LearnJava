@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/*初始化?个包含 5 个点的数组，
+/*初始化一个包含 5 个点的数组，
 重写compareTo(E)方法对数组元素根据到原点的距离进?排序。
 
 List<Point> lst=new ArrayList<Point>();

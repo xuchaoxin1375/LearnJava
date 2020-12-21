@@ -1,5 +1,7 @@
 package experiment9.StudyRead;
 
+import namesAndStrings.FileName;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -7,9 +9,8 @@ import java.io.IOException;
 public class StudyRead {
 
     public static void main(String[] args) {
-       String fileName = "D:\\OneDrive\\Java\\ProjectCodeInIDEA\\experiment_doc\\dataExperiment9\\ReadText.txt";
-        String fileNameAnother = "D:\\OneDrive\\Java\\ProjectCodeInIDEA\\experiment_doc\\dataExperiment8\\三国演义(罗贯中).txt";
-        //D:\OneDrive\Java\ProjectCodeInIDEA\experiment_doc\dataExperiment8\三国演义(罗贯中).txt
+        String fileName = FileName.fileName8_2;
+        //三国演义(罗贯中).txt
         try {
             FileInputStream inputStream = new FileInputStream(fileName);//抛出异常1
             byte[] bytes = new byte[1024]; //存储读取到的多个字节

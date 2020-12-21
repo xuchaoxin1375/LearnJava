@@ -9,7 +9,7 @@ import java.util.Properties;
 public class PropertiesIO {
     public static void main(String[] args) throws IOException {
 //新建一个流对象，
-        FileWriter fr = new FileWriter(FileName.prefix3+"userinfo.properties");
+        FileWriter fr = new FileWriter(FileName.prefixPath3+"userinfo.properties");
 
         Properties pro = new Properties();
 

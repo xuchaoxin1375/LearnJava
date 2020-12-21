@@ -1,5 +1,7 @@
 package experiment5.exp2;
 
+import namesAndStrings.FileName;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.text.ParseException;
@@ -15,7 +17,7 @@ public class Temperature {
     public static void main(String[] args) {
         List<String> list=new ArrayList<>();
         String s;
-        File file = new File("D:\\OneDrive\\Java\\ProjectCodeInIDEA\\src\\experiment5\\exp2\\weather.txt");
+        File file = new File(FileName.fileName5_1);
         try {
             Scanner scanner = new Scanner(file);//读取数据
             //主体部分:

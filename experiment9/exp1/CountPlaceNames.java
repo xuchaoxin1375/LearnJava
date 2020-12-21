@@ -18,7 +18,7 @@ public class CountPlaceNames {
     public static void main(String[] args) {
         HashMap<String, Integer> map = new HashMap<>();//用于统计词频
         /*这里引入中间过度名可以进一步为修改数据源提供方便,只需要使得标识符尽可能规律*/
-        String fileName = FileName.fileName2;
+        String fileName = FileName.fileName8_2;
         String fileNameOut = FileName.fileNameOut4;
 
         try {

@@ -1,4 +1,4 @@
-package experiment9.exp1;
+package experiment9.studyJFreeChart;
 
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.ChartPanel;

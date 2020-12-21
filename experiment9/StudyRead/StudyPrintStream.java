@@ -22,7 +22,7 @@ public class StudyPrintStream {
         ps.println("hello printStream");
         ps.println("hello system");
 // 标准输出流不再指向控制台，指向“log”文件
-        PrintStream printStream = new PrintStream(new FileOutputStream(FileName.prefix3 +"log.txt"));//这里用的构造方法:public PrintStream(@NotNull java.io.OutputStream out)
+        PrintStream printStream = new PrintStream(new FileOutputStream(FileName.prefixPath3 +"log.txt"));//这里用的构造方法:public PrintStream(@NotNull java.io.OutputStream out)
 // 修改输出方向，将输出改到log文件
         System.setOut(printStream);
 // 输出

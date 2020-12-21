@@ -2,8 +2,8 @@ package experiment6.exp3;
 
 import java.util.List;
 
- class AddDifferentNum {
-    public void add(List<Integer> list, int tmp) {
+class AddDifferentNum {
+    public void addDifferentNumber(List<Integer> list, int tmp) {
         if (list.contains(tmp)) {
             throw new SameIntegerException(tmp, list);
         } else {
