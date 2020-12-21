@@ -11,7 +11,12 @@ import java.nio.charset.StandardCharsets;
  * @Version 1.0
  */
 public class textFileCopy {
-
+    /**
+     * 注意,word(docx)是二进制文件,不能使用该流来读取.
+     * @param srcPathAndFileNameStr
+     * @param desPathAndFileNameStr
+     * @throws IOException
+     */
     public static void binaryFileCopy(String srcPathAndFileNameStr,String desPathAndFileNameStr) throws IOException {
         /*套上Buffered之后,是字节缓冲流,效率区域尽可能的高,但其还是离不开基础流*/
         BufferedReader bufferedReader= new BufferedReader(new FileReader(srcPathAndFileNameStr, StandardCharsets.UTF_8));

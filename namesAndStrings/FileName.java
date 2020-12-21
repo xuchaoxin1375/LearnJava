@@ -4,6 +4,7 @@ public class FileName {
     /*当你需在多个.java中要用同一个变量(更多的是常量,比如文件名(路径名))
      * 那么就可以建立一个储存这些信息的静态成员,这样就可以通过类名.静态变量名来访问
      * 这样做的好处时可以降低含有读写文件的.java的耦合,即使项目移动到其他目录,也只需要做少量的修改.*/
+    public static String desktopPath = "C:/users/xuchaoxin/desktop/";
     public static String prefix1 = "D:\\OneDrive - pop.zjgsu.edu.cn\\Java\\ProjectCodeInIDEA\\",
             prefix2 = "D:\\OneDrive - pop.zjgsu.edu.cn\\Java\\files\\experiment_doc\\",
             prefix3 = prefix2 + "dataExperiment9\\",
@@ -26,6 +27,7 @@ public class FileName {
     public static String fileName11_1 = prefix1 + "src";
     public static String fileName11_2 = "D:\\驱动整合包\\Audio";//大文件.
     public static String fileName11_3 = prefix1 + "src\\experiment7";
+    public static String fileNameWord=desktopPath+"word.docx";
     /**
      * binary files
      */
@@ -34,7 +36,7 @@ public class FileName {
     /**
      * fileNames Out:
      */
-    public static String desktopPath = "C:/users/xuchaoxin/desktop/";
+
 
     public static String fileNameOut = prefix1 + "src\\experiment9\\StudyRead\\FileName.java";
     public static String fileNameOut2 = prefix3 + "My2.java";

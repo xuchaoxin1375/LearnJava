@@ -13,6 +13,12 @@ import java.io.*;
 public class binaryFileCopy {
 /*读入文本文件*/
 
+    /**
+     * 读取二进制文件,包括docx等word文件.
+     * @param srcFile
+     * @param desFileName
+     * @throws IOException
+     */
     public static void binaryFileCopy(String srcFile,String desFileName) throws IOException {
         // BufferedReader bufferedReader= new BufferedReader(new FileReader(FileName.fileName10_1, StandardCharsets.UTF_8));
         /*套上Buffered之后,是字节缓冲流,效率区域尽可能的高,但其还是离不开基础流*/
@@ -43,7 +49,7 @@ public class binaryFileCopy {
     }
 
     public static void main(String[] args) throws IOException {
-       binaryFileCopy(FileName.fileNamePicture1, FileName.fileNameOutPicture1);
+       binaryFileCopy(FileName.desktopPath+"word.docx", FileName.desktopPath+"word.bak.docx");
         System.out.println("task overed!");
     }
 }
