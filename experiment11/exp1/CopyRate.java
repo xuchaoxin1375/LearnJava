@@ -28,7 +28,7 @@ public class CopyRate {
         long sourceFileSize = sourceFile.length();//由于main方法是static的，所有不能想非static的方法那样直接访问非static变量。（偷懒的话就将这些成员变量设为static了。
 
         // 打印执行比率的线程:
-        Thread PrintRateThread = new Thread(new Runnable() {
+        Thread printRateThread = new Thread(new Runnable() {
             @Override
             public void run() {
                 while (true) {
@@ -71,15 +71,13 @@ public class CopyRate {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                    PrintRateThread.interrupt();
+                    printRateThread.interrupt();
                 }
             }
         });//end copyThread
         //start the two threads:
         copyTread.start();
-        PrintRateThread.start();
+        printRateThread.start();
     }//endMain
-
-
 }
 

@@ -17,7 +17,9 @@ public class SubString {
         Map<String, Integer> map = new HashMap<>();
         String tmp;
         //System.out.println("枚举所有子串:(包括重复出现的)");
-        /*参看:https://blog.csdn.net/xuchaoxin1375/article/details/109545953*/
+        /*参看:
+        https://blog.csdn.net/xuchaoxin1375/article/details/109545953
+        */
         for (int i = 0; i < line.length(); i++) {
             for (int j = i + 1; j <= line.length(); j++) {
                 if (!map.containsKey(tmp = line.substring(i, j))) {
